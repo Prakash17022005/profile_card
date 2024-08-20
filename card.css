@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(225, 234, 241);
+}
+
+.prof_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: white;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.image{
+    position:relative;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.image .prof_img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid whitesmoke;
+}
+
+.prof_card .textd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.prof_card .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.prof_card .job{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.prof_card .media_btn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.media_btn .link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height:34px ;
+    width: 34px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 9px;
+    text-decoration: none;
+    background-color: #4070f4;
+    
+}
+
+.prof_card .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button{
+    margin:0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    border-radius: 24px;
+    border: none;
+    color: aliceblue;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons .button:hover{
+    background-color: blue;
+
+}
+
+.prof_card .cont
+{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 13px;
+    
+}
+
+.cont .id{
+    margin-top: 4px;
+}
+
+.prof_card .text2{
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.prof_card .text3 .skillt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
